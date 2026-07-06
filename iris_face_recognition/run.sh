@@ -19,10 +19,10 @@ data_dir="$(
 )"
 
 case "$data_dir" in
-  /data|/data/*|/share/*|/media/*) ;;
+  /data|/data/*|/homeassistant/*|/share/*|/media/*) ;;
   *)
     echo "Invalid data_dir: $data_dir"
-    echo "Use /data, /share/iris, or /media/iris."
+    echo "Use /data, /homeassistant/iris, /share/iris, or /media/iris."
     exit 1
     ;;
 esac

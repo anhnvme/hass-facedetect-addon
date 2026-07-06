@@ -28,12 +28,12 @@ IRIS chạy nhận diện khuôn mặt local bằng InsightFace. Database, ảnh
 ### Cấu hình
 
 ```yaml
-data_dir: /data
+data_dir: /homeassistant/iris
 ```
 
 `data_dir` là path mà add-on đưa cho IRIS làm thư mục `/data` để lưu dữ liệu.
 
-Mặc định để `/data` là đủ. Home Assistant giữ thư mục này bền vững cho add-on.
+Mặc định `/homeassistant/iris` để có thể xem bằng File editor trong thư mục cấu hình Home Assistant.
 
 Nếu muốn dữ liệu nằm ở khu vực dễ truy cập hơn, đổi thành:
 
@@ -91,12 +91,12 @@ IRIS runs local face recognition with InsightFace. The database, uploaded images
 ### Configuration
 
 ```yaml
-data_dir: /data
+data_dir: /homeassistant/iris
 ```
 
 `data_dir` is the path passed to IRIS as its `/data` storage directory.
 
-The default `/data` is enough. Home Assistant keeps it persistent for this add-on.
+The default `/homeassistant/iris` is visible from File editor inside the Home Assistant configuration directory.
 
 If you want the data in an easier-to-access location, use:
 

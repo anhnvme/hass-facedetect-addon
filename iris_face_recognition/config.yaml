@@ -1,5 +1,5 @@
 name: IRIS Face Recognition
-version: "1.0.1"
+version: "1.0.2"
 slug: iris_face_recognition
 description: Local face recognition for Home Assistant using IRIS/InsightFace
 url: https://github.com/anhnvme/facedetect
@@ -16,9 +16,12 @@ ports:
 ports_description:
   80/tcp: IRIS web UI and API
 map:
+  - type: homeassistant_config
+    read_only: false
+    path: /homeassistant
   - share:rw
   - media:rw
 options:
-  data_dir: /data
+  data_dir: /homeassistant/iris
 schema:
   data_dir: str
