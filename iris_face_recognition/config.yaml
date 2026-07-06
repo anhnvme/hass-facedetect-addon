@@ -9,9 +9,7 @@ arch:
 startup: services
 boot: auto
 init: false
-ingress: true
-ingress_port: 80
-panel_icon: mdi:face-recognition
+ingress: false
 webui: http://[HOST]:[PORT:80]
 ports:
   80/tcp: 8080

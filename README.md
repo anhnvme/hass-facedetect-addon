@@ -23,7 +23,7 @@ IRIS chạy nhận diện khuôn mặt local bằng InsightFace. Database, ảnh
 3. Thêm URL repository này.
 4. Cài add-on **IRIS Face Recognition**.
 5. Start add-on.
-6. Mở từ sidebar/Ingress hoặc vào `http://homeassistant.local:8080`.
+6. Bấm **Open Web UI** hoặc vào `http://homeassistant.local:8080`.
 
 ### Cấu hình
 
@@ -86,7 +86,7 @@ IRIS runs local face recognition with InsightFace. The database, uploaded images
 3. Add this repository URL.
 4. Install **IRIS Face Recognition**.
 5. Start the add-on.
-6. Open it from the sidebar/Ingress or visit `http://homeassistant.local:8080`.
+6. Click **Open Web UI** or visit `http://homeassistant.local:8080`.
 
 ### Configuration
 

@@ -30,7 +30,7 @@ Trong Home Assistant add-on settings, đổi **Network -> 80/tcp** sang host por
 1. Add repository này trong Home Assistant: **Settings -> Add-ons -> Add-on Store -> Repositories**.
 2. Install **IRIS Face Recognition**.
 3. Start add-on.
-4. Mở từ sidebar/Ingress hoặc vào `http://homeassistant.local:8080`.
+4. Bấm **Open Web UI** hoặc vào `http://homeassistant.local:8080`.
 
 ### Dữ liệu
 
@@ -74,7 +74,7 @@ In Home Assistant add-on settings, change **Network -> 80/tcp** to any host port
 1. Add this repository in Home Assistant: **Settings -> Add-ons -> Add-on Store -> Repositories**.
 2. Install **IRIS Face Recognition**.
 3. Start the add-on.
-4. Open it from the side panel or visit `http://homeassistant.local:8080`.
+4. Click **Open Web UI** or visit `http://homeassistant.local:8080`.
 
 ### Data
 
