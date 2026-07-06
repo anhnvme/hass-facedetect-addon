@@ -11,7 +11,7 @@ IRIS chạy nhận diện khuôn mặt local bằng InsightFace. Database, ảnh
 ### Thông tin nhanh
 
 - Add-on folder: `iris_face_recognition/`
-- Image chạy bên trong: `ghcr.io/anhnvme/facedetect:latest`
+- Image chạy bên trong: `ghcr.io/anhnvme/facedetect:1.0.1`
 - Container port: `80`
 - Host port mặc định: `8080`
 - Data mặc định trong container: `/data`
@@ -74,7 +74,7 @@ IRIS runs local face recognition with InsightFace. The database, uploaded images
 ### Quick Info
 
 - Add-on folder: `iris_face_recognition/`
-- Runtime image: `ghcr.io/anhnvme/facedetect:latest`
+- Runtime image: `ghcr.io/anhnvme/facedetect:1.0.1`
 - Container port: `80`
 - Default host port: `8080`
 - Default container data directory: `/data`

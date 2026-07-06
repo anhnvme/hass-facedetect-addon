@@ -1,4 +1,4 @@
-FROM ghcr.io/anhnvme/facedetect:latest
+FROM ghcr.io/anhnvme/facedetect:1.0.1
 
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
